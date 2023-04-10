@@ -1,3 +1,5 @@
+from __future__ import annotations
+
 import datetime
 import logging
 
@@ -7,6 +9,7 @@ import openai
 
 import requests
 import json
+
 from datetime import date
 from calendar import monthrange
 
